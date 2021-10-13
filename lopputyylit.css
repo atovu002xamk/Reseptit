@@ -1,0 +1,377 @@
+body{
+width:960px;
+margin:auto;
+}
+
+@font-face{
+font-family:omafontti2;
+src:url(header.ttf);
+}
+
+#header{
+margin-top:10px;
+height:330px;
+width:100%;
+background-image:url(ruoka3.jpeg);
+background-repeat:no-repeat;
+background-position:bottom;
+background-size:960px;
+box-shadow:5px 5px 5px #666666;
+margin-bottom:5px;
+text-align:center;
+padding-top:40px;
+
+}
+
+#header h2{
+    padding:0;
+letter-spacing:3px;
+margin:0;
+font-size:6em;
+color:#fff;
+font-family:omafontti2;
+text-shadow:3px 3px 3px #666666;
+}
+
+
+ul{
+height:60px;
+list-style-type:none;
+margin:0;
+padding:0;
+}
+
+a{
+margin:0;
+padding:0;
+text-decoration:none;
+color:#fff;
+}
+
+@keyframes anim1{
+0%{left:0px; top:0px;}
+20%{left:0px; top:5px;}
+40%{left:0px; top:0px;}
+60%{left:0px; top:5px;}
+70%{left:0px; top:0px;}
+85%{left:0px; top:5px;}
+100%{left:0px; top:0px;}
+}
+
+li:hover{
+transform:scale(1.15);
+transition:0.8s;
+position:relative;
+animation:anim1 1s;
+box-shadow:6px 6px 6px #999999;;
+}
+
+li{
+margin:0;
+display:block;
+height:50px;
+width:236px;
+background-color:#000000;
+list-style-type:none;
+text-align:center;
+margin:1px 2px;
+float:left;
+box-shadow:4px 4px 4px #666666;
+padding-top:5px;
+font-family:Papyrus;
+font-size:2em;
+border-radius:15%;
+}
+
+#content{
+min-height:700px;
+overflow:auto;
+width:100%;
+background-color:#fff;
+box-shadow:5px 5px 5px #666666;
+border:1px solid grey;
+
+}
+
+#etu{
+height:250px;
+width:940px;
+border-bottom:1px solid black;
+padding:10px;
+}
+
+#etu h2{
+font-family:omafontti1;
+font-size:2.6em;
+text-shadow:3px 3px 3px #666666;
+}
+
+#etu p{
+font-family:"Times New Roman";
+font-size:21px;
+letter-spacing:1.3px;
+}
+
+fieldset{
+margin:10px;
+width:800px;
+}
+
+#yhteys{
+    margin-top:20px;
+    height:250px;
+    width:900px;
+float:left;
+}
+
+#yhteys p{
+margin:10px;
+font-family:omafontti1;
+}
+
+
+textarea{
+width:880px;
+height:200px;
+}
+
+@font-face{
+    font-family:omafontti1;
+    src:url(CaviarDreams_BoldItalic.ttf);
+}
+
+#footer{
+height:30px;
+width:100%;
+text-align:center;
+box-shadow:5px 5px 5px #666666;
+margin:5px 0px 10px 0px;
+padding-top:10px;
+font-family:omafontti1;
+}
+
+#loota{
+width:840px;
+height:600px;
+margin-left:70px;
+margin-top:40px;
+}
+
+@keyframes ani2{
+0%{transform:scale(0);}
+10%{transform:scale(0.1);}
+25%{transform:scale(0.2);}
+35%{transform:scale(0.3);}
+45%{transform:scale(0.4);}
+55%{transform:scale(0.5);}
+65%{transform:scale(0.6);}
+75%{transform:scale(0.7);}
+85%{transform:scale(0.8);}
+95%{transform:scale(0.9);}
+100%{transform:scale(1);}
+}
+
+[class*="linkki"]{
+display:block;
+width:350px;
+height:150px;
+margin:30px;
+float:left;
+text-align:center;
+padding-top:100px;
+font-size:2.5em;
+border-radius:10%;
+text-shadow:4px 4px 4px #666666;
+animation:ani2 0.5s;
+}
+
+[class*="linkki"]:hover{
+font-size:3.2em;
+text-shadow:4px 4px 4px #000000;
+}
+
+/*kuvalinkkejen kuvat*/
+
+.pastalinkki1{
+background-image:url(bropasta.jpeg);
+background-size:350px 250px;
+}
+
+.pastalinkki2{
+    background-image:url(jlihapasta.jpg);
+    background-size:350px 250px;
+    }
+
+    .pastalinkki3{
+        background-image:url(carbo.jpg);
+        background-size:350px 250px;
+        }
+
+        .pastalinkki4{
+            background-image:url(tonni.jpg);
+            background-size:350px 250px;
+            }
+
+.laatikkolinkki1{
+background-image:url(makarooni.jpg);
+background-size:350px 250px;
+}
+.laatikkolinkki2{
+    background-image:url(maksa.jpg);
+    background-size:350px 250px;
+    }
+    .laatikkolinkki3{
+        background-image:url(kaali.jpg);
+        background-size:350px 250px;
+        }
+        .laatikkolinkki4{
+            background-image:url(pekoni.jpg);
+            background-size:350px 250px;
+            }
+
+.keittolinkki1{
+background-image:url(kala.jpg);
+background-size:350px 250px;
+}
+.keittolinkki2{
+    background-image:url(jlihakeitto.jpg);
+    background-size:350px 250px;
+    }
+    .keittolinkki3{
+        background-image:url(nakki.jpg);
+        background-size:350px 250px;
+        }
+        .keittolinkki4{
+            background-image:url(bataatti.jpg);
+            background-size:350px 250px;
+            }
+
+    /*reseptisivut*/
+
+    #takaisin{
+        display:block;
+        width:200px;
+        height:30px;
+        text-decoration:none;
+        border:2px solid black;
+        color:black;
+        padding-top:15px;
+        margin:30px 20px 20px 20px;
+        text-align:center;
+        border-radius:30px;
+        float:left;
+
+    }
+
+#seuraava{
+    display:block;
+    width:200px;
+        height:30px;
+        text-decoration:none;
+        border:2px solid black;
+        color:black;
+        padding-top:15px;
+        margin:30px 20px 20px 20px;
+        text-align:center;
+        border-radius:30px;
+        float:right;
+}
+
+
+    #ruoka{
+        width:960px;
+        height:100px;
+        text-align:center;
+        font-size:2em;
+        margin-top:25px;
+        
+        
+    }
+
+    #seup{
+    margin:0;
+    padding:0;
+    font-weight:bold;
+    }
+
+    #ruoka h2{
+    margin:0;
+    padding:0;
+    text-shadow:3px 3px 3px #999999;
+    text-decoration:underline;
+    }
+
+    #ainekset{
+        min-height:500px;
+        overflow:auto;
+        width:400px;
+   
+        float:left;
+        margin:20px 10px 0px 20px;
+        border-right:1px solid black;
+
+
+    }
+
+    #ainekset h2, #ohjeet h2{
+    text-align:center;
+    font-size:2em;
+    margin:0;
+    padding:0;
+    }
+
+    #ohjeet h2{
+margin-bottom:30px;
+    }
+
+    #ainekset h3{
+        text-align:center;
+        margin:0;
+    }
+
+    #ainekset p, #ohjeet p{
+    font-size:1.4em;
+    text-align:left;
+    
+    }
+    
+
+    #ohjeet{
+        min-height:500px;
+        overflow:auto;
+        width:500px;
+        float:left;
+        margin:20px 0px 0px 10px;
+        
+
+    }
+    #video{
+        width:960px;
+        min-height:200px;
+        overflow:auto;
+        margin-bottom:10px;
+        text-align:center;
+        padding-top:10px;
+    }
+    #video p{
+        display:block;
+        width:960px;
+        height:25px;
+        margin:0;
+        padding-top:10px;
+        font-size:1.3em;
+        border-top:1px solid black;
+    }
+
+    iframe{
+        margin:auto;
+        width:700px;
+        height:400px;
+        
+       
+    }
+
+    
+    
+
+    
